@@ -8,25 +8,25 @@ const Plan = () => {
             <h2>Choose Your Plan</h2>
             <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
 
-            <Row xs={1} md={3} className="g-4 mt-3">
+            <Row xs={1} sm={2} md={3} className="g-4 mt-3">
                 <Col>
                     <Card className="p-4 h-100">
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
                             <Card.Title>Free Plan</Card.Title>
-                            <Card.Text>
+                            <Card.Text className="text-start">
                                 <p>
                                     <i className="fas fa-check text-success"></i>
                                     {' '}Unlimited Bandwitch</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Encrypted Connection</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}No Traffic Logs</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Works on All Devices</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }}>
@@ -40,22 +40,22 @@ const Plan = () => {
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
                             <Card.Title>Standard Plan</Card.Title>
-                            <Card.Text>
+                            <Card.Text className="text-start">
                                 <p>
                                     <i className="fas fa-check text-success"></i>
                                     {' '}Unlimited Bandwitch</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Encrypted Connection</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Yes Traffic Logs</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Works on All Devices</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Connect Anyware</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }}>
@@ -69,25 +69,25 @@ const Plan = () => {
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
                             <Card.Title>Premium Plan</Card.Title>
-                            <Card.Text>
+                            <Card.Text className="text-start">
                                 <p>
                                     <i className="fas fa-check text-success"></i>
                                     {' '}Unlimited Bandwitch</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Encrypted Connection</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Yes Traffic Logs</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Works on All Devices</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Connect Anyware</p>
                                 <p>
                                     <i className="fas fa-check text-success"></i>
-                                    {' '}Unlimited Bandwitch</p>
+                                    {' '}Get New Features</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }}>

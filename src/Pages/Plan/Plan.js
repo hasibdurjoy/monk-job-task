@@ -14,92 +14,86 @@ const Plan = () => {
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
                             <Card.Title>Free Plan</Card.Title>
-                            <Card.Body>
-                                <Card.Text>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <h2>Free</h2>
-                                <button className="btn btn-outline-danger">Select</button>
-                            </Card.Footer>
+                            <Card.Text>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                            </Card.Text>
                         </Card.Body>
+                        <Card.Footer style={{ backgroundColor: "white" }}>
+                            <h2>Free</h2>
+                            <button className="btn btn-outline-danger w-75 rounded-pill mx-auto">Select</button>
+                        </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
                     <Card className="p-4 h-100">
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Body>
-                                <Card.Text>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <h2>Free</h2>
-                                <button className="btn btn-outline-danger">Select</button>
-                            </Card.Footer>
+                            <Card.Title>Standard Plan</Card.Title>
+                            <Card.Text>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                            </Card.Text>
                         </Card.Body>
+                        <Card.Footer style={{ backgroundColor: "white" }}>
+                            <h2>$9/mo</h2>
+                            <button className="btn btn-outline-danger w-75 rounded-pill mx-auto">Select</button>
+                        </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
                     <Card className="p-4 border-danger h-100">
                         <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Body>
-                                <Card.Text>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                    <p>
-                                        <i className="fas fa-check text-success"></i>
-                                        {' '}Unlimited Bandwitch</p>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <h2>Free</h2>
-                                <button className="btn btn-danger">Select</button>
-                            </Card.Footer>
+                            <Card.Title>Premium Plan</Card.Title>
+                            <Card.Text>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                                <p>
+                                    <i className="fas fa-check text-success"></i>
+                                    {' '}Unlimited Bandwitch</p>
+                            </Card.Text>
                         </Card.Body>
+                        <Card.Footer style={{ backgroundColor: "white" }}>
+                            <h2>$12/mo</h2>
+                            <button className="btn btn-danger w-75 rounded-pill mx-auto">Select</button>
+                        </Card.Footer>
                     </Card>
                 </Col>
             </Row>

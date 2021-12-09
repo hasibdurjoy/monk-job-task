@@ -1,4 +1,3 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Navbar, Container, Nav, Form, FormControl } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
@@ -6,7 +5,7 @@ import logo from '../../Utilities/Images/logo.png'
 
 const NavIgation = () => {
     return (
-        <Navbar bg="light" expand="lg" >
+        <Navbar expand="lg" className="bg-light">
             <Container >
                 <Navbar.Brand href="#home">
                     <img

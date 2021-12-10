@@ -8,41 +8,43 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col xm={12} md={4} className='text-start'>
-                        <img
-                            src={logo}
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top"
-                            alt="React Bootstrap logo"
-                        />{' '}
-                        <span style={{ fontWeight: 500 }}>Lasles</span ><span style={{ fontWeight: 700 }}>VPN</span>
+                        <span className='d-flex align-items-center'>
+                            <img
+                                src={logo}
+                                width="30"
+                                height="30"
+                                className="d-inline-block align-top"
+                                alt="React Bootstrap logo"
+                            />{' '}
+                            <span style={{ fontWeight: 500, marginLeft: '5px', fontSize: "20px" }}>Lasles</span ><span style={{ fontWeight: 700, fontSize: "20px" }}>VPN</span>
+                        </span>
 
-                        <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
+                        <p className='my-4'>LaslesVPN is a private virtual network that has unique features and has high security.</p>
                         <p className='text-secondary'>©2020LaslesVPN</p>
                     </Col>
                     <Col xm={12} md={2}>
 
                     </Col>
                     <Col xm={12} md={2} className='text-start'>
-                        <h6>Product</h6>
-                        <p>Download </p>
-                        <p>Pricing</p>
-                        <p>Server</p>
-                        <p>Countries</p>
-                        <p>Blog</p>
+                        <h5>Product</h5>
+                        <p className="text-secondary">Download </p>
+                        <p className="text-secondary">Pricing</p>
+                        <p className="text-secondary">Server</p>
+                        <p className="text-secondary">Countries</p>
+                        <p className="text-secondary">Blog</p>
                     </Col>
                     <Col xm={12} md={2} className='text-start'>
-                        <h6>Engage</h6>
-                        <p>LaslesVPN ? </p>
-                        <p>FAQ</p>
-                        <p>About Us</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
+                        <h5>Engage</h5>
+                        <p className="text-secondary">LaslesVPN ? </p>
+                        <p className="text-secondary">FAQ</p>
+                        <p className="text-secondary">About Us</p>
+                        <p className="text-secondary">Privacy Policy</p>
+                        <p className="text-secondary">Terms of Service</p>
                     </Col>
                     <Col xm={12} md={2} className='text-start'>
-                        <h6>Earn Money</h6>
-                        <p>Affiliate</p>
-                        <p>Become Partner</p>
+                        <h5>Earn Money</h5>
+                        <p className="text-secondary">Affiliate</p>
+                        <p className="text-secondary">Become Partner</p>
                     </Col>
                 </Row>
             </Container>

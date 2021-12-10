@@ -6,3 +6,16 @@
 .card-star{
     color: orange;
 }
+.left-arrow{
+    color: #F53838;
+    margin-right: 5px;
+    border: 2px solid #F53838;
+    border-radius: 50% !important;
+}
+.right-arrow{
+    color: white;
+    background-color: #F53838;
+    margin-right: 5px;
+    border-radius: 50% !important;
+    border: 2px solid #F53838;
+}

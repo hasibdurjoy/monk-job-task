@@ -5,94 +5,94 @@ import cardImage from '../../Utilities/Images/card-image.png'
 const Plan = () => {
     return (
         <Container className="mt-5">
-            <h2 className='text-center'>Choose Your Plan</h2>
-            <p className='text-center'>Let's choose the package that is best for you and explore it happily and <br /> cheerfully.</p>
+            <h2 className='text-center' style={{ fontWeight: 500, fontSize: "35px" }}>Choose Your Plan</h2>
+            <p className='text-center text-secondary'>Let's choose the package that is best for you and explore it happily and <br /> cheerfully.</p>
 
             <Row xs={1} sm={2} md={3} className="g-4 mt-3">
                 <Col>
                     <Card className="p-4 h-100">
-                        <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
+                        <Card.Img variant="top" src={cardImage} className="img-fluid w-50 mx-auto" />
                         <Card.Body>
-                            <Card.Title className='text-center'>Free Plan</Card.Title>
+                            <Card.Title className='text-center mb-3'>Free Plan</Card.Title>
                             <Card.Text className="text-start ms-5">
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Unlimited Bandwitch</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Encrypted Connection</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}No Traffic Logs</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Works on All Devices</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }} className='text-center border-0'>
                             <h2 >Free</h2>
-                            <button className="btn btn-outline-danger w-75 rounded-pill mx-auto">Select</button>
+                            <button className="btn  w-75 rounded-pill mx-auto" style={{ border: "2px solid #F53838", fontWeight: 500 }}>Select</button>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
                     <Card className="p-4 h-100">
-                        <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
+                        <Card.Img variant="top" src={cardImage} className="img-fluid w-50 mx-auto" />
                         <Card.Body>
-                            <Card.Title className='text-center'>Standard Plan</Card.Title>
+                            <Card.Title className='text-center mb-3'>Standard Plan</Card.Title>
                             <Card.Text className="text-start ms-5">
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Unlimited Bandwitch</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Encrypted Connection</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Yes Traffic Logs</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Works on All Devices</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Connect Anyware</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }} className='text-center border-0'>
                             <h2 >$9/mo</h2>
-                            <button className="btn btn-outline-danger w-75 rounded-pill mx-auto">Select</button>
+                            <button className="btn  w-75 rounded-pill mx-auto" style={{ border: "2px solid #F53838", fontWeight: 500 }}>Select</button>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="p-4 border-danger h-100">
-                        <Card.Img variant="top" src={cardImage} className="img-fluid p-5" />
+                    <Card className="p-4 h-100 rounded" style={{ border: "2px solid #F53838" }}>
+                        <Card.Img variant="top" src={cardImage} className="img-fluid w-50 mx-auto" />
                         <Card.Body>
-                            <Card.Title className='text-center'>Premium Plan</Card.Title>
+                            <Card.Title className='text-center mb-3'>Premium Plan</Card.Title>
                             <Card.Text className="text-start ms-5">
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Unlimited Bandwitch</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Encrypted Connection</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Yes Traffic Logs</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Works on All Devices</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Connect Anyware</p>
-                                <p>
-                                    <i className="fas fa-check text-success"></i>
+                                <p className="text-secondary">
+                                    <i className="fas fa-check text-success me-3"></i>
                                     {' '}Get New Features</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer style={{ backgroundColor: "white" }} className='text-center border-0'>
                             <h2 >$12/mo</h2>
-                            <button className="btn btn-danger w-75 rounded-pill mx-auto">Select</button>
+                            <button className="btn  w-75 rounded-pill mx-auto" style={{ backgroundColor: "#F53838", fontWeight: 500, color: "white" }}>Select</button>
                         </Card.Footer>
                     </Card>
                 </Col>

@@ -2,10 +2,11 @@ import React from 'react';
 import { Navbar, Container, Nav, Form, FormControl } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import logo from '../../Utilities/Images/logo.png'
+import './Navigation.css';
 
 const NavIgation = () => {
     return (
-        <Navbar expand="lg" className="bg-light">
+        <Navbar expand="lg" className="navigation">
             <Container >
                 <Navbar.Brand href="#home">
                     <img

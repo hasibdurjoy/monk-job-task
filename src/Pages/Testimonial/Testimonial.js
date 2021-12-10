@@ -51,18 +51,18 @@ const Testimonial = () => {
                     <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded border-danger mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon1} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Viezh Robert</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Warsaw, Poland</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>
@@ -79,18 +79,18 @@ const Testimonial = () => {
                     <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon2} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Yessica Christy</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Shanxi, China</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>
@@ -107,18 +107,18 @@ const Testimonial = () => {
                     <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon3} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Kim Young Jou</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Seoul, South Korea</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>
@@ -132,21 +132,21 @@ const Testimonial = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div class="item mx-3 mb-5" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon1} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Viezh Robert</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Warsaw, Poland</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>
@@ -163,18 +163,18 @@ const Testimonial = () => {
                     <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon2} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Yessica Christy</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Shanxi, China</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>
@@ -191,18 +191,18 @@ const Testimonial = () => {
                     <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
-                                <Col sm={9} md={9} lg={9}>
+                                <Col xs={9} sm={9} md={9} lg={9}>
                                     <Row className='text-start'>
-                                        <Col sm={4} md={4} lg={4}>
+                                        <Col xs={4} sm={4} md={4} lg={4}>
                                             <img src={icon3} alt="" className='card-icon' />
                                         </Col>
-                                        <Col sm={8} md={8} lg={8} className='text-start'>
+                                        <Col xs={8} sm={8} md={8} lg={8} className='text-start'>
                                             <h6>Kim Young Jou</h6>
                                             <p className='text-secondary' style={{ fontSize: "14px" }}>Seoul, South Korea</p>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col sm={3} md={3} lg={3}>
+                                <Col xs={3} sm={3} md={3} lg={3}>
                                     <p className='d-flex align-items-center'>4.5 <i className="ms-2 fas fa-star card-star"></i></p>
                                 </Col>
                             </Row>

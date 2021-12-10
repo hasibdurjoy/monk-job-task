@@ -38,117 +38,104 @@ const Testimonial = () => {
     return (
         <>
             <Container className='mt-5'>
-                <h2>Trusted by Thousands of Happy Customer</h2>
-                <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+                <h2 className='text-center'>Trusted by Thousands of <br /> Happy Customer</h2>
+                <p className='text-center'>These are the stories of our customers who have joined us with great <br /> pleasure when using this crazy feature.</p>
+
+                <OwlCarousel className="slider-items owl-carousel ps-5" {...options}>
+                    <div class="item mx-3">
+                        <Card className='p-4 h-100 rounded border-danger mb-5'>
+                            <Row>
+                                <Col>
+                                    <img src={icon1} alt="" className='card-icon' />
+                                </Col>
+                                <Col>
+                                    <h6>Name</h6>
+                                    <p>Designation</p>
+                                </Col>
+                                <Col>
+                                    <p>4.5 <i className="fas fa-star card-star"></i></p>
+                                </Col>
+                            </Row>
+
+                            <Card.Body>
+                                <Card.Text>
+                                    “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div class="item mx-3">
+                        <Card className='p-4 h-100 rounded  '>
+                            <Row>
+                                <Col>
+                                    <img src={icon1} alt="" className='card-icon' />
+                                </Col>
+                                <Col>
+                                    <h6>Name</h6>
+                                    <p>Designation</p>
+                                </Col>
+                                <Col>
+                                    <p>4.5 <i className="fas fa-star card-star"></i></p>
+                                </Col>
+                            </Row>
+
+                            <Card.Body>
+                                <Card.Text>
+                                    “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div class="item mx-3">
+                        <Card className='p-4 h-100 rounded  '>
+                            <Row>
+                                <Col>
+                                    <img src={icon1} alt="" className='card-icon' />
+                                </Col>
+                                <Col>
+                                    <h6>Name</h6>
+                                    <p>Designation</p>
+                                </Col>
+                                <Col>
+                                    <p>4.5 <i className="fas fa-star card-star"></i></p>
+                                </Col>
+                            </Row>
+
+                            <Card.Body>
+                                <Card.Text>
+                                    “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div class="item mx-3">
+                        <Card className='p-4 h-100 rounded  '>
+                            <Row>
+                                <Col>
+                                    <img src={icon1} alt="" className='card-icon' />
+                                </Col>
+                                <Col>
+                                    <h6>Name</h6>
+                                    <p>Designation</p>
+                                </Col>
+                                <Col>
+                                    <p>4.5 <i className="fas fa-star card-star"></i></p>
+                                </Col>
+                            </Row>
+
+                            <Card.Body>
+                                <Card.Text>
+                                    “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+
+                </OwlCarousel>
             </Container>
 
-            <OwlCarousel className="slider-items owl-carousel ps-5" {...options}>
-                <div class="item mx-3">
-                    <Card className='p-4 h-100'>
-                        <Row>
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <img src={icon1} alt="" className='card-icon' />
-                                    </Col>
-                                    <Col>
-                                        <h6>Name</h6>
-                                        <p>Designation</p>
-                                    </Col>
-                                </Row>
-                            </Col>
-                            <Col>
-                                <p>4.5 {''}<i className="fas fa-star" style={{ color: 'orange' }}></i></p>
-                            </Col>
-                        </Row>
 
-                        <Card.Body>
-                            <Card.Text>
-                                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div class="item mx-3">
-                    <Card className='p-4 h-100'>
-                        <Row>
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <img src={icon1} alt="" className='card-icon' />
-                                    </Col>
-                                    <Col>
-                                        <h6>Name</h6>
-                                        <p>Designation</p>
-                                    </Col>
-                                </Row>
-                            </Col>
-                            <Col>
-                                <p>4.5 {''}<i className="fas fa-star" style={{ color: 'orange' }}></i></p>
-                            </Col>
-                        </Row>
-
-                        <Card.Body>
-                            <Card.Text>
-                                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div class="item mx-3">
-                    <Card className='p-4 h-100'>
-                        <Row>
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <img src={icon1} alt="" className='card-icon' />
-                                    </Col>
-                                    <Col>
-                                        <h6>Name</h6>
-                                        <p>Designation</p>
-                                    </Col>
-                                </Row>
-                            </Col>
-                            <Col>
-                                <p>4.5 {''}<i className="fas fa-star" style={{ color: 'orange' }}></i></p>
-                            </Col>
-                        </Row>
-
-                        <Card.Body>
-                            <Card.Text>
-                                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div class="item mx-3">
-                    <Card className='p-4 h-100'>
-                        <Row>
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <img src={icon1} alt="" className='card-icon' />
-                                    </Col>
-                                    <Col>
-                                        <h6>Name</h6>
-                                        <p>Designation</p>
-                                    </Col>
-                                </Row>
-                            </Col>
-                            <Col>
-                                <p>4.5 {''}<i className="fas fa-star" style={{ color: 'orange' }}></i></p>
-                            </Col>
-                        </Row>
-
-                        <Card.Body>
-                            <Card.Text>
-                                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-
-            </OwlCarousel>
 
         </>
     );

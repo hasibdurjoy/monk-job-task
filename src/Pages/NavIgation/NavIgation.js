@@ -27,8 +27,8 @@ const NavIgation = () => {
                     </Nav>
                     <Nav.Link to="/" className="text-secondary">Pricing</Nav.Link>
                     <Nav.Link to="/" className="text-secondary">Testimonial</Nav.Link>
-                    <Nav.Link to="/" className="text-dark">Sign in</Nav.Link>
-                    <Nav.Link to="/"><button className="btn btn-outline-danger rounded-pill">Sign up</button></Nav.Link>
+                    <Nav.Link to="/" className="text-dark"><b>Sign in</b></Nav.Link>
+                    <Nav.Link to="/"><button className="btn rounded-pill" style={{ color: "#F53838", borderColor: "#F53838" }}><b>Sign up</b> </button></Nav.Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

@@ -2,3 +2,7 @@
     height: 50px !important;
     width: 50px !important;
 }
+
+.card-star{
+    color: orange;
+}

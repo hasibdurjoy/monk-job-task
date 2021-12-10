@@ -104,7 +104,7 @@ const Plan = () => {
                             </Card.Body>
                             <Card.Footer style={{ backgroundColor: "white" }} className='text-center border-0'>
                                 <h2 >$12/mo</h2>
-                                <button className="btn  w-75 rounded-pill mx-auto" style={{ backgroundColor: "#F53838", fontWeight: 500, color: "white" }}>Select</button>
+                                <button className="btn  w-75 rounded-pill mx-auto" style={{ backgroundColor: "#F53838", fontWeight: 500, color: "white", boxShadow: "5px 5px 5px 5px rgba(245, 138, 138, 0.35)" }}>Select</button>
                             </Card.Footer>
                         </Card>
                     </Col>

@@ -133,7 +133,7 @@ const Testimonial = () => {
                         </Card>
                     </div>
                     <div class="item mx-3 mb-5" style={{ height: "230px" }}>
-                        <Card className='px-3 py-4 h-100 rounded border-danger mb-5'>
+                        <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>
                                     <Row className='text-start'>

@@ -15,7 +15,7 @@ const NavIgation = () => {
                         className="d-inline-block align-top"
                         alt="React Bootstrap logo"
                     />{' '}
-                    LaslesVPN
+                    <span style={{ fontWeight: 500 }}>Lasles</span ><span style={{ fontWeight: 700 }}>VPN</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

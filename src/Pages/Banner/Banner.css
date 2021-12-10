@@ -5,6 +5,7 @@
     background-color: #F53838;
     font-weight: 500;
     box-shadow:20px 30px 50px 10px rgba(245, 138, 138, 0.35);
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {

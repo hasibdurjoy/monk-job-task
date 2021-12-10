@@ -7,10 +7,10 @@ import Zoom from 'react-reveal/Zoom';
 const Plan = () => {
     return (
         <Container className="mt-5">
-            <Fade left cascade>
+            <Zoom left cascade>
                 <h2 className='text-center' style={{ fontWeight: 500, fontSize: "35px" }}>Choose Your Plan</h2>
-            </Fade>
-            <Fade right cascade>
+            </Zoom>
+            <Fade right >
                 <p className='text-center text-secondary'>Let's choose the package that is best for you and explore it happily and <br /> cheerfully.</p>
             </Fade>
             <Zoom bottom >

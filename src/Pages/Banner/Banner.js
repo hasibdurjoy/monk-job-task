@@ -15,7 +15,7 @@ const Banner = () => {
                             <div>
                                 <h1 className="mb-4 banner-title">Want anything to  be <br /> easy with <span style={{ fontWeight: 700 }}>LaslesVPN</span></h1>
                                 <p className="mb-4 text-secondary">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
-                                <Button className="mt-2 rounded px-5 py-2 border-0 banner-button">Get Started</Button>
+                                <button className="btn mt-2 rounded px-5 py-2 border-0 banner-button">Get Started</button>
                             </div>
                         </div>
                     </Bounce>

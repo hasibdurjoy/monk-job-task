@@ -48,7 +48,7 @@ const Testimonial = () => {
 
             <Zoom bottom big>
                 <OwlCarousel className="slider-items owl-carousel" {...options}>
-                    <div class="item mx-3 mb-5" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded border-danger mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>
@@ -76,7 +76,7 @@ const Testimonial = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div class="item mx-3" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>
@@ -104,7 +104,7 @@ const Testimonial = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div class="item mx-3" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>
@@ -160,7 +160,7 @@ const Testimonial = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div class="item mx-3" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>
@@ -188,7 +188,7 @@ const Testimonial = () => {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div class="item mx-3" style={{ height: "230px" }}>
+                    <div class="item mx-3 mb-5 testimonial-card">
                         <Card className='px-3 py-4 h-100 rounded  mb-5'>
                             <Row>
                                 <Col sm={9} md={9} lg={9}>

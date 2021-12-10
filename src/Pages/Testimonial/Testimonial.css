@@ -19,3 +19,13 @@
     border-radius: 50% !important;
     border: 2px solid #F53838;
 }
+
+.testimonial-card{
+    height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonial-card{
+        height: 300px;
+    }
+  }
